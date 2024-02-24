@@ -56,6 +56,7 @@ The \" basically means that the input from the .gptk file is empty and hence con
 If your game solely utilizes mouse and keyboard controls, then use the above [link](https://portmaster.games/gptokeyb-documentation.html) to remap the controls appropriately (i.e play the game on your computer first to see the controls in the menu and in-game to decide how to rebind the controls)
 
 **Forth Step: Test and Troubleshoot**
+
 Join the Portmaster discord server and put a new post under #testing-n-dev and the Portmaster discord community will help you with your port.
 
 There are many games which requires patches or extra coding to help the game run optimally (i.e prevent slowdowns, fix missing sounds)
