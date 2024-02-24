@@ -1,6 +1,6 @@
 ## Notes
 
-**GameMaker Games**
+### **GameMaker Games**
 
 GameMaker games usually have a data.win OR game.unx file which contains the main data to make the games work. As the games are not meant to run natively on ARM devices supported by portmaster, it uses gmloader together with an appropriate wrapper (.apk file) to help translate the data into information which can be read by arm devices. Based on the current limitations of gmloader, games which uses the YoYo Compiler (i.e game data is stored directly on the .exe of the game file) are currently not portable. 
 
