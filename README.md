@@ -10,7 +10,7 @@ It is also a lot more convenient to SSH your files via WIFI to your device rathe
 **How to port GameMaker games to Portmaster**
 1. Download the test.zip from https://github.com/Fraxinus88/GMloader-ports/blob/main/Test/Test.zip
 2. Download Undertale Mod Tool  from https://github.com/UnderminersTeam/UndertaleModTool
-3. Legally obtain your GameMaker game files or the many wonderful free ones available from websites such as https://itch.io/
+3. Legally obtain your GameMaker game files from Steam or GOG or Itch.io OR try the many wonderful free ones available from websites such as https://itch.io/
 4. Locate the data.win or game.unx file inside the game files and open it using the Undertale Mod Tool and determine the GameMaker version to see which wrapper (.apk) can help to translate the game information appropriately.
 5. You can find the game version at the top of the window or under Data -> General Information -> Version
 ![Pingo Game Version.png](https://github.com/Fraxinus88/GMloader-ports/blob/main/Pingo%20Game%20Version.PNG)
