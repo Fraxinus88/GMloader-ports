@@ -51,7 +51,7 @@ First and foremost, if the GameMaker game has in-built gamepad controls, you may
 
 ![testaptk.png](https://github.com/Fraxinus88/GMloader-ports/blob/main/images/testgptk.png)
 
-The \" basically means that the input from the .gptk file is empty and hence controls will mainly be gotten from the in-build SDL2 controls available on your handheld.
+The "\"" basically means that the input from the .gptk file is empty and hence controls will mainly be gotten from the in-build SDL2 controls available on your handheld.
 
 If your game solely utilizes mouse and keyboard controls, then use the above [link](https://portmaster.games/gptokeyb-documentation.html) to remap the controls appropriately (i.e play the game on your computer first to see the controls in the menu and in-game to decide how to rebind the controls)
 
