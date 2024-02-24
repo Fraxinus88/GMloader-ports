@@ -36,13 +36,13 @@ Note: The script should have capital letters (like Port Name.sh ) and must end i
 Replace the highlighted parts above with your Game Name and renamed folders and files. The .zip usually has the same name as your game folder name.
 The above lines will be replaced as such:
 
-"# PORTMASTER: test.zip, Test.sh -> # PORTMASTER: gamename.zip, Game Name.sh"
+"# PORTMASTER: test.zip, Test.sh **→** # PORTMASTER: gamename.zip, Game Name.sh"
 
-"GAMEDIR="/$directory/ports/test" -> GAMEDIR="/$directory/ports/gamename"
+"GAMEDIR="/$directory/ports/test" **→** GAMEDIR="/$directory/ports/gamename"
 
-"$GPTOKEYB "gmloader" -c ./test.gptk & -> $GPTOKEYB "gmloader" -c ./gamename.gptk &"
+"$GPTOKEYB "gmloader" -c ./test.gptk & **→** $GPTOKEYB "gmloader" -c ./gamename.gptk &"
 
-"./gmloader test.apk -> ./gmloader test.apk"
+"./gmloader test.apk **→** ./gmloader test.apk"
 
 #### **Third Step: Editing the gamename.gptk file**
 Kindly refer to https://portmaster.games/gptokeyb-documentation.html
