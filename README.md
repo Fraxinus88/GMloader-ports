@@ -14,7 +14,7 @@ It is also a lot more convenient to SSH your files via WIFI to your device rathe
 4. Locate the data.win or game.unx file inside the game files and open it using the Undertale Mod Tool and determine the GameMaker version to see which wrapper (.apk) can help to translate the game information appropriately.
 5. You can find the game version at the top of the window or under Data -> General Information -> Version
 ![Pingo Game Version.png](https://github.com/Fraxinus88/GMloader-ports/blob/main/images/Pingo%20Game%20Version.PNG)
-6. Copy the appropriate wrapper version from https://github.com/Fraxinus88/GMloader-ports/blob/main/images/Pingo%20Game%20Version.PNG)
+6. Copy the appropriate wrapper version from https://github.com/Fraxinus88/GMloader-ports/tree/main/gmloader%20wrappers%20(APK)
 7. Delete test.apk and rename the wrapper (e.g  rename GMS 2.2.2.302.apk to test.apk)
 8. Place all your game files (data.win, audiogroup.dat, .ogg file) and folders under /test/gamedata
 9. Place Test.sh and /test folder into your ports folder on your device (e.g roms2/ports).
