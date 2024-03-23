@@ -2,6 +2,9 @@
 
 # Bugs
 
+## GM 2.3 is quite unstable
+If the data.win/game.unx is GM2.3, it is less likely to work without patching!
+
 ## Missing sound with .ogg files 
 
 Currently, some GameMaker ports with .ogg files (which are use for sound and background music)
@@ -19,7 +22,7 @@ Add in the following lines into the .sh Script:
 			echo "Moved .ogg files from ./gamedata to ./assets/"
     
 			# Zip the contents of ./sm.apk including the new .ogg files
-			zip -r ./sm.apk ./sm.apk ./assets/
+			zip -r -0 ./sm.apk ./sm.apk ./assets/
 			echo "Zipped contents to ./sm.apk"
 		fi
 
