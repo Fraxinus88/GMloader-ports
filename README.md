@@ -48,7 +48,7 @@ test.gptk -> gamename.gptk
 
 Note: The script should have capital letters (like Port Name.sh ) and must end in .sh , the port directory (Game folder name) should be the same as the containing directory. Usually it is combined into a single word with no space and all in lowercase.
 
-#### **Second Step: Editing the .sh file**
+# **Second Step: Editing the .sh file**
 ![Testsh.png](https://github.com/Damian2809/GMloader-ports/blob/main/images/Testsh.png)
 Replace the highlighted parts above with your Game Name and renamed folders and files. The .zip usually has the same name as your game folder name.
 
@@ -66,7 +66,7 @@ The above Lines will be replaced as such:
 
 "./gmloader test.apk → ./gmloader gamename.apk"
 
-#### **Third Step: Editing the gamename.gptk file**
+# **Third Step: Editing the gamename.gptk file**
 Kindly refer to https://portmaster.games/gptokeyb-documentation.html
 
 First and foremost, if the GameMaker game has in-built gamepad controls, you may edit all the lines as the following:
@@ -77,12 +77,12 @@ The backslash\" basically means that the input from the .gptk file is empty and 
 
 If your game solely utilizes mouse and keyboard controls, then use the above [link](https://portmaster.games/gptokeyb-documentation.html) to remap the controls appropriately (i.e play the game on your computer first to see the controls in the menu and in-game to decide how to rebind the controls)
 
-#### **Forth Step: Test and Troubleshoot**
+# **Forth Step: Test and Troubleshoot**
 Join the Portmaster discord server and put a new post under #testing-n-dev and the Portmaster discord community will help you with your port.
 
 There are many games which requires patches or extra coding to help the game run optimally (i.e prevent slowdowns, fix missing sounds)
 Some of these Problems already have a Solution so look into [here](https://github.com/Damian2809/GMloader-ports/tree/main/Bugs)
 
 
-##### **Last Step: Making the port available**
+# **Last Step: Making the port available**
 
