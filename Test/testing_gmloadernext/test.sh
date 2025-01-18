@@ -46,7 +46,7 @@ fi
 # Assign gptokeyb and load the game
 $GPTOKEYB "gmloadernext" -c "test.gptk" &
 pm_platform_helper "$GAMEDIR/gmloadernext"
-./gmloadernext.aarch64 -c "gmloader.json"
+./gmloadernext -c "gmloader.json"
 
 # Cleanup
 pm_finish

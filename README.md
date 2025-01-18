@@ -19,7 +19,7 @@ Everything that is called gamename in this Tutorial is the actual gamename of yo
 6. Copy the appropriate wrapper version from [here](https://github.com/Damian2809/GMloader-ports/tree/main/gmloader%20wrappers%20(APK))
 7. Delete test.apk and rename the wrapper (e.g  rename GMS 2.2.2.302.apk to gamename.apk)
 8. Place all your game files (data.win, audiogroup.dat, .ogg file) and folders under /test/assets
-9. Edit the gmloader.json to link to the right .apk or .port [You will find More information Here about that]() 
+9. Edit the gmloader.json to link to the right .apk or .port [You will find More information Here about that](https://github.com/Damian2809/GMloader-ports?tab=readme-ov-file#editing-gmloaderjson-only-for-gmloader-next) 
 9. Place Test.sh and /test folder into your ports folder on your device (e.g roms2/ports).
 10. Run Test under your ports menu to see if your game works.
 11. If the game runs poorly and is does not use a "2024.x.x.x.apk" then try to use gmloader
@@ -28,7 +28,7 @@ Everything that is called gamename in this Tutorial is the actual gamename of yo
 
 ### **Editing gmloader.json (only for GMLoader-next)**
 You will have these Lines in your gmloader.json
-
+"
 {
     "save_dir" : "saves",
     "apk_path" : "gamename.apk",
@@ -36,7 +36,7 @@ You will have these Lines in your gmloader.json
     "disable_controller" : false,
     "force_platform" : "os_windows"
 }
-
+"
 Change the apk_path to the actual gamename.apk and you may want to mess with some of the other settings
 
 #### **First Step: Renaming your folder name, file names and .sh name**
@@ -54,8 +54,10 @@ Replace the highlighted parts above with your Game Name and renamed folders and 
 
 ## For GMloader-next
 The above lines will be replaced as such:
-$DATAFILE = "test.apk" **→** $DATAFILE = "gamename.apk" 
-$GPTOKEYB "gmloadernext" -c "test.gptk" & **→** $GPTOKEYB "gmloadernext" -c ./gamename.gptk &
+
+$DATAFILE="test.apk" **→** $DATAFILE="gamename.apk"
+
+"$GPTOKEYB "gmloadernext" -c "test.gptk" & **→** $GPTOKEYB "gmloadernext" -c ./gamename.gptk &"
 
 ## For GMLoader-old
 The above Lines will be replaced as such:
@@ -79,7 +81,7 @@ If your game solely utilizes mouse and keyboard controls, then use the above [li
 Join the Portmaster discord server and put a new post under #testing-n-dev and the Portmaster discord community will help you with your port.
 
 There are many games which requires patches or extra coding to help the game run optimally (i.e prevent slowdowns, fix missing sounds)
-Some of these Problems already have a Solution so look into [here]()
+Some of these Problems already have a Solution so look into [here](https://github.com/Damian2809/GMloader-ports/tree/main/Bugs)
 
 
 ### **Last Step: Making the port available**
