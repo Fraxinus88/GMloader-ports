@@ -33,7 +33,7 @@ Add in the following lines into the .sh Script:
 
 If you use GMLoader-next then you can either disable GPTOKEYB. That is easy because you just need to remove the -c "gamename.gptk" in the GPTOKEYB Line
 
-#OR
+# OR
 
 You deactivate Controller Support. That is done in the gmloader.json. There we will set "disable_controller" : false into  "disable_controller" : true
 

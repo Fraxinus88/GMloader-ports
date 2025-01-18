@@ -84,5 +84,5 @@ There are many games which requires patches or extra coding to help the game run
 Some of these Problems already have a Solution so look into [here](https://github.com/Damian2809/GMloader-ports/tree/main/Bugs)
 
 
-### **Last Step: Making the port available**
+##### **Last Step: Making the port available**
 
