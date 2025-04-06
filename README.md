@@ -8,7 +8,7 @@ GameMaker games usually have a data.win OR game.unx file which contains the main
 It is also a lot more convenient to SSH your files via WIFI to your device rather than physically transferring the data via an SD card reader.
 
 ### **How to port GameMaker games to Portmaster**
-1. Download the test_new.zip from https://github.com/Fraxinus88/GMloader-ports/blob/main/Test/test_new.zip
+1. Download the test_new.zip from https://github.com/Fraxinus88/GMloader-ports/blob/main/Test/Test_new.zip
 2. Download Undertale Mod Tool  from https://github.com/UnderminersTeam/UndertaleModTool
 3. Legally obtain your GameMaker game files from Steam or GOG or Itch.io OR try the many wonderful free ones available from websites such as https://itch.io/
 4. Locate the data.win or game.unx file inside the game files and open it using the Undertale Mod Tool and determine the GameMaker version to see which wrapper (.apk) can help to translate the game information appropriately.
