@@ -14,17 +14,20 @@ Create a /assets folder with a .gitkeep in the root of your game directory
 
 Add in the following lines into the .sh Script:
 
-		# Check if there are .ogg files in ./gamedata
-		if [ -n "$(ls ./gamedata/*.ogg 2>/dev/null)" ]; then
-    
-			# Move all .ogg files from ./gamedata to ./assets
-			mv ./gamedata/*.ogg ./assets/
-			echo "Moved .ogg files from ./gamedata to ./assets/"
-    
-			# Zip the contents of ./sm.apk including the new .ogg files
-			zip -r -0 ./sm.apk ./sm.apk ./assets/
-			echo "Zipped contents to ./sm.apk"
-		fi
+	# Check for .ogg files and move to APK
+    	if [ -n "$(ls ./gamedata/*.ogg 2>/dev/null)" ]; then
+        mkdir -p ./assets
+        mv ./gamedata/*.ogg ./assets/
+        echo "Moved .ogg files to ./assets/"
+
+        zip -r -0 ./game.apk ./assets/
+        echo "Zipped contents to ./game.apk"
+
+        rm -rf ./assets
+        echo "Deleted assets directory"
+    else
+        echo "No .ogg files found"
+    fi
 
 ## Game has both mouse and keyboard input and controller inputs concurrently active
 
